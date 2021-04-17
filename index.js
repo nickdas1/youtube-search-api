@@ -11,10 +11,6 @@ searchForm.addEventListener('submit', (e) => {
         if (this.readyState == 4 && this.status == 200) {
             const res = JSON.parse(xhttp.responseText);
 
-            // const data = res.items.map((item) => {
-            //     return item.snippet;
-            // });
-
             const data = res.items;
             console.log(data[0])
 

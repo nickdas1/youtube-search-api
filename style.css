@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#search {
+    width: 40%;
+    height: 30px;
+    margin: 30px 0;
+}
+
+.video-div {
+    width: 33%;
+}
+
+.thumbnail {
+    width: 90%;
+}
